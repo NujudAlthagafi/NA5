@@ -10,32 +10,39 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="410dp"
-        android:layout_height="820dp"
+        android:layout_width="412dp"
+        android:layout_height="869dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/baackground"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="410dp"
-        android:layout_height="600dp"
+        android:layout_width="373dp"
+        android:layout_height="126dp"
 
+        android:layout_marginTop="260dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/winwin"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="410dp"
-        android:layout_height="800dp"
+        android:layout_width="373dp"
+        android:layout_height="194dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/staarrs"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="140dp"
         tools:ignore="MissingConstraints" />
 
     <Button
